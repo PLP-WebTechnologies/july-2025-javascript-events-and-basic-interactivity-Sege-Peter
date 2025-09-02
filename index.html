@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skope Interactive Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎨 Welcome to Skope Interactive Hub</h1>
+    <p>A small creative playground with forms and fun interactions.</p>
+  </header>
+
+  <!-- Interactive Greeting Section -->
+  <section id="greeting-section">
+    <h2>👋 Personalized Greeting</h2>
+    <input type="text" id="nameInput" placeholder="Enter your name">
+    <button id="greetBtn">Say Hello</button>
+    <p id="greetingMessage"></p>
+  </section>
+
+  <!-- Form Section -->
+  <section id="form-section">
+    <h2>📩 Join Our Newsletter</h2>
+    <form id="signupForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" placeholder="Choose a username">
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" placeholder="Enter your email">
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="At least 6 characters">
+
+      <button type="submit">Subscribe</button>
+      <p id="formMessage"></p>
+    </form>
+  </section>
+
+  <!-- Interactive Fun Section -->
+  <section id="fun-section">
+    <h2>🎲 Random Quote Generator</h2>
+    <button id="quoteBtn">Give Me a Quote</button>
+    <p id="quoteDisplay"></p>
+  </section>
+
+  <footer>
+    <p>✨ Built with creativity by Skope Designs</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
